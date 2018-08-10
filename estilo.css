@@ -2,4 +2,97 @@ body{
     display:flex;
     margin: 0;
     font-family: 'Dosis', sans-serif;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+
+legend{
+    font-weight: bolder;
+    
+    
+}
+header{
+    background-color: #FAFAEE;
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    justify-content: space-between;
+
+}
+.botoesIniciais{
+    width: 60px;
+    height: 60px;
+}
+#botoes{
+    display: flex;
+    width: 20vw;
+    
+}
+#botoes div img{
+    padding-right: 20px;
+    padding-left: 10px;
+    
+    
+}
+.logo img{
+    width: 600px;
+}
+.logo{
+    padding: 30px;
+    margin-left: 50px;
+    margin-top:9px; 
+    width: 30vw;
+}
+
+#botoes div:hover{
+    background-color:#CC5D4F;
+}
+
+#botoes div{
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:15px;
+    margin-bottom:10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+input{
+    border-radius: 9px;
+    margin-top: 5px;
+   
+}
+#background{
+    background-image: url(img/banner.png);
+    background-size: 100vw;
+    height: 250px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    
+}
+#menu{
+    background-color: #CC5D4F;
+    height: 400px;
+}
+.fraseEfeito{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fraseEfeito h1{
+   font-size: 30pt;
+}
+#caixa1{
+    background-color: #FAFAEE;
+    width: 100vw;
+    height: 200px;
 }

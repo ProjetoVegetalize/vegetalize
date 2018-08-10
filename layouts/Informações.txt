@@ -3,3 +3,10 @@ FONTES:
     - textos do site: dosis regular
 ICONES:
     https://thenounproject.com/search/?q=vegan
+
+CORES:
+	VERDE ESCURO: #99B23C
+	AZUL: #D4E6FF
+	VERDE CLARO: #F0FFBA
+	VERMELHO/LARANJA: #CC5D4F
+	MARROM: #B2584C
