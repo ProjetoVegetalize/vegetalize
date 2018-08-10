@@ -1,0 +1,5 @@
+FONTES:
+    - logo: avenir black
+    - textos do site: dosis regular
+ICONES:
+    https://thenounproject.com/search/?q=vegan
