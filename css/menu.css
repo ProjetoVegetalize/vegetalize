@@ -13,11 +13,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 0;
   
     
 }
 
-#menu li{
+#menu li a{
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -31,7 +32,16 @@
     font-weight: 600;
     color: #faffea;
     font-size: 18pt;
+    text-decoration: none;
 }
 #menu li img{
     margin-bottom: 20px;
+}
+#menu li {
+    list-style-type: none;
+}
+#menu li a:hover{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: linear 0.1s;
 }

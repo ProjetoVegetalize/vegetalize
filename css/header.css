@@ -6,12 +6,9 @@ body{
     overflow-x: hidden;
 }
 
-
 legend{
     font-weight: 520;
-    margin-top: 7px;
-    
-    
+    margin-top: 7px;   
 }
 header{
     background-color: #FAFAEE;
@@ -19,7 +16,6 @@ header{
     width: 100vw;
     height: 200px;
     justify-content: space-between;
-
 }
 .logo img{
     width: 600px;
@@ -33,29 +29,23 @@ header{
 .caixaBotoes{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-        
+    justify-content: center;      
 }
 #pesquisar{
     display: flex;
     align-content: center;
-
 }
 .botoesIniciais{
     width: 45px;
-    height: 45px;
-   
+    height: 45px; 
 }
 #botoes{
     display: flex;
     width: 20vw;
-    
 }
-
-
 #botoes div:hover{
-    background-color:#CC5D4F;
-    
+    background-color:#cc5d4f;
+    transition: linear 0.3s;   
 }
 
 #botoes div{
@@ -64,43 +54,39 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80px;
-    
-    
+    width: 80px; 
 }
 input{
     border-radius: 5px;
     margin: 10px 0 0 10px;
-    border:0.5px solid black;
     height: 15px;
     width: 150px;
-
+    border: none;
+    box-shadow: 1px 0 8px 1px rgba(204, 93, 79, 0.1), 0 1px 40px 0 rgba(204, 93, 79, 0.1);
+    outline: none;
+}
+input:hover{
+    box-shadow: 1px 0 8px 1px rgba(0, 0, 0, 0.1), 0 1px 40px 0 rgba(0, 0, 0, 0.1);
+    transition: linear 0.3s;
 }
 #background{
-    background-image: url(img/banner.png);
+    background-image: url(../img/banner.png);
     background-size: 100vw;
-    height: 250px;
+    height: 300px;
     display: flex;
     width: 100vw;
-    align-items: center;
-    
+    align-items: center; 
 }
-
 .fraseEfeito{
     background-color: rgba(255, 255, 255, 0.7);
     width: 100vw;
     height: 200px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 .fraseEfeito h1{
    font-size: 35pt;
    font-weight: 400;
 }
-#caixa1{
-    background-color: #FAFAEE;
-    width: 100vw;
-    height: 200px;
-}
+
