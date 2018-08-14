@@ -8,7 +8,8 @@ body{
 
 
 legend{
-    font-weight: bolder;
+    font-weight: 520;
+    margin-top: 7px;
     
     
 }
@@ -20,21 +21,6 @@ header{
     justify-content: space-between;
 
 }
-.botoesIniciais{
-    width: 60px;
-    height: 60px;
-}
-#botoes{
-    display: flex;
-    width: 20vw;
-    
-}
-#botoes div img{
-    padding-right: 20px;
-    padding-left: 10px;
-    
-    
-}
 .logo img{
     width: 600px;
 }
@@ -44,9 +30,32 @@ header{
     margin-top:9px; 
     width: 30vw;
 }
+.caixaBotoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+}
+#pesquisar{
+    display: flex;
+    align-content: center;
+
+}
+.botoesIniciais{
+    width: 45px;
+    height: 45px;
+   
+}
+#botoes{
+    display: flex;
+    width: 20vw;
+    
+}
+
 
 #botoes div:hover{
     background-color:#CC5D4F;
+    
 }
 
 #botoes div{
@@ -55,16 +64,17 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:15px;
-    margin-bottom:10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    width: 80px;
+    
     
 }
 input{
-    border-radius: 9px;
-    margin-top: 5px;
-   
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+    border:0.5px solid black;
+    height: 15px;
+    width: 150px;
+
 }
 #background{
     background-image: url(img/banner.png);
@@ -75,10 +85,7 @@ input{
     align-items: center;
     
 }
-#menu{
-    background-color: #CC5D4F;
-    height: 400px;
-}
+
 .fraseEfeito{
     background-color: rgba(255, 255, 255, 0.7);
     width: 100vw;
@@ -89,7 +96,8 @@ input{
     
 }
 .fraseEfeito h1{
-   font-size: 30pt;
+   font-size: 35pt;
+   font-weight: 400;
 }
 #caixa1{
     background-color: #FAFAEE;
