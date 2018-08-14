@@ -5,6 +5,11 @@
     background-color: #FAFAEE;
     width: 100vw;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    font-size: 20pt; 
+
 
 }
 #objetivos{
@@ -12,23 +17,25 @@
     width: 100vw;
     height: 400px;
 }
-#projeto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;   
-    font-size: 20pt; 
-}
-#transicao{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;   
-    align-items: flex-end;
-    font-size: 20pt; 
-}  
 
-#projeto div, #transicao div{       
-    width: 50vw;
+.caixaDoProjeto{
+    display: flex;
+    justify-content: center; 
 }
-#projeto h1, #transicao h1{
-    font-size: 40pt;
+.textoProjeto{
+    width: 40vw;
+    text-align: justify;   
 }
+.textoProjeto p{
+    margin-top: 40px;
+}
+.folha{
+    width: 20vw; 
+}
+
+.folha img{
+    float: right;
+    margin-top: 35%;
+}
+
+
