@@ -1,6 +1,12 @@
 *{
     margin:0;
 }
+#objetivos{
+    background-color: #99B23C;
+    width: 100vw;
+    height: 400px;
+}
+
 #projeto, #transicao{
     background-color: #FAFAEE;
     width: 100vw;
@@ -9,13 +15,6 @@
     flex-direction: column;
     justify-content: space-evenly;   
     font-size: 20pt; 
-
-
-}
-#objetivos{
-    background-color: #99B23C;
-    width: 100vw;
-    height: 400px;
 }
 
 .caixaDoProjeto{
@@ -36,6 +35,50 @@
 .folha img{
     float: right;
     margin-top: 35%;
+    
 }
 
+.caixaDaTransicao{
+    display: flex;
+    justify-content: center; 
+}
+.textoTransicao{
+    width: 38vw;
+    text-align: justify;   
+}
+.textoTransicao p{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.caixaDaTransicao h1{
+    text-align: end;
+}
+.frigideira{
+    width: 20vw; 
+}
+
+.frigideira img{
+    transform: rotate(-10deg);
+    margin-top: 40%;
+    /* animation: mexer 1s step-end infinite;
+    */
+}
+/*
+@keyframes mexer{
+    0%{
+        transform: rotate(-10deg);
+    }
+    30%{
+        transform: rotate(-15deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    70%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(15deg);
+    }
+} */
 
