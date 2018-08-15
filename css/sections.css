@@ -35,7 +35,8 @@
 .folha img{
     float: right;
     margin-top: 35%;
-    
+    animation: pulsar 3.3s linear infinite;
+
 }
 
 .caixaDaTransicao{
@@ -60,10 +61,10 @@
 .frigideira img{
     transform: rotate(-10deg);
     margin-top: 40%;
-    /* animation: mexer 1s step-end infinite;
-    */
+    animation: mexer 1s step-end infinite;
+   
 }
-/*
+
 @keyframes mexer{
     0%{
         transform: rotate(-10deg);
@@ -80,5 +81,63 @@
     100%{
         transform: rotate(15deg);
     }
-} */
+}
 
+@keyframes pulsar{
+    0%{
+        transform: scale(1.2);
+    }
+    30%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+#objetivos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#objetivos>div>div{
+    background-color: #FAFAEE;
+    border-radius:50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pilar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legendas{
+    font-size:1.6rem;
+    margin-top:20px; 
+}
+#coracao{
+    
+    width: 200px;
+    height: 200px;
+}
+
+#vaca{
+    width: 300px;
+    height: 250px;
+}
+#arvore{
+    width: 170px;
+    height: 170px;
+}

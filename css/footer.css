@@ -2,4 +2,73 @@ footer{
     background-color: #99B23C;
     width: 100vw;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+footer li{
+    list-style-type: none;
+}
+.caixaFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100vw;
+
+}
+footer li a{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    color: #faffea;
+    font-size: 14pt;
+
+
+    
+}
+#logoFooter{
+    width: 188px;
+    height: 40px;
+    
+
+
+}
+.fundoLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafAEE;
+    height: 47px;
+    width: 210px;
+    border-radius: 50px;
+    
+}
+.redes img{
+    width: 30px;
+}
+
+.redes{
+    background-color: #fafAEE;
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+.caixaRedes{
+    display: flex;
+}
+footer p{
+    margin-top:30px;
+}
+footer nav{
+    padding-top:50px;
 }
