@@ -20,6 +20,7 @@
 .caixaDoProjeto{
     display: flex;
     justify-content: center; 
+    align-items: center;
 }
 .textoProjeto{
     width: 40vw;
@@ -34,14 +35,16 @@
 
 .folha img{
     float: right;
-    margin-top: 35%;
+    margin-top: 60%;
     animation: pulsar 3.3s linear infinite;
+    width: 170px;
 
 }
 
 .caixaDaTransicao{
     display: flex;
     justify-content: center; 
+    align-items: center;
 }
 .textoTransicao{
     width: 38vw;
@@ -53,6 +56,7 @@
 }
 .caixaDaTransicao h1{
     text-align: end;
+   
 }
 .frigideira{
     width: 20vw; 
@@ -60,8 +64,9 @@
 
 .frigideira img{
     transform: rotate(-10deg);
-    margin-top: 40%;
+    margin-top: 50%;
     animation: mexer 1s step-end infinite;
+    width: 230px;
    
 }
 
@@ -132,12 +137,15 @@
     width: 200px;
     height: 200px;
 }
+.pilar p{
+    width: 70%;
+    text-align: center;
+}
 
 #vaca{
-    width: 300px;
-    height: 250px;
+    
 }
 #arvore{
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
 }
