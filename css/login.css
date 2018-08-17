@@ -1,16 +1,18 @@
-body{
-    margin: 0;
+.modaljs{
+    display: none;
+    flex-direction: column;
+    align-items: center;   
+    position: absolute;
+    right: 10%;
+    top: 126px;
+}
+
+.ativar{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 #loginModal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200px;
+    height: 300px;
     width: 200px;
 }
 
@@ -25,6 +27,16 @@ body{
     width: 200px;
     background-color: #99B23C;
     border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topLogin h1{
+    margin: 0;
+    color: #FAFAEE;
+    text-align: center;
+    font-size: 25px;
 }
 
 #bottomLogin{
@@ -32,4 +44,68 @@ body{
     width: 200px;
     background-color: #99B23C;
     border-radius: 0 0 15px 15px;
+}
+
+#caixaLogin{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    background-color: white;
+    width:200px;
+}
+
+#usuario, #senha{
+    border-radius: 20px;
+    height: 30px;
+    width: 160px;
+    border: none;
+    box-shadow: 0px -1px 0px -1px rgba(185, 68, 53, 0.644), 1px 0px 11px 1px rgba(185, 68, 53, 0.644);
+    outline: none;
+}
+#usuario::placeholder, #senha::placeholder{
+    text-align: center;
+}
+input[type=email], input[type=password]{
+    width: 100%;
+    padding: 12px 32px;
+    box-sizing: border-box;
+}
+
+#usuario{
+    background-image: url(/img/pessoalogin.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+}
+
+#senha{
+    background-image: url(/img/cadeadologin.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+}
+
+#entrar{
+    border-radius: 8px;
+    margin: 10px 0 0 10px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 0 8px 1px rgba(204, 93, 79, 0.1), 0 1px 40px 0 rgba(204, 93, 79, 0.1);
+    outline: none;
+    background-color: #99B23C;
+    color: #FAFAEE;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+*{
+    font-family: 'Dosis', sans-serif;
 }

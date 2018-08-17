@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/login.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         </div>
         <div class="caixaBotoes">
             <div id="botoes">
-                <div>
+                <div class="loginjs">
                     <img class="botoesIniciais" src="img/cogumelo.png" alt="cogumelo">
                     <legend>LOGIN</legend>
                 </div>
@@ -31,23 +32,37 @@
                     <legend>CADASTRO</legend>
                 </div>
             </div>
-            
+
             <div id="pesquisar">
                 <div>
                     <input type="text">
                 </div>
             </div>
         </div>
-        
+        <div id="loginModal" class="modaljs">
+            <div id="trianglim"></div>
+            <div id="topLogin">
+                <h1>
+                    LOGIN
+                </h1>
+            </div>
+            <div id="caixaLogin">
+                <input type="email" placeholder="USUÁRIO" name="" id="usuario">
+                <input placeholder="SENHA" type="password" id="senha">
+                <button id="entrar">ENTRAR</button>
+            </div>
+            <div id="bottomLogin"></div>
+        </div>
+
     </header>
     <section id="background">
-        
+
         <div class="fraseEfeito">
             <h1>O site perfeito para acompanhar a sua jornada de transição!</h1>
         </div>
-        
-        
-        
+
+
+
     </section>
     <section id="menu">
         <nav>
@@ -104,7 +119,7 @@
             <div>
                 <img id="coracao" src="img/coracao.png" alt="vegan lover by Carol van Waart from the Noun Project">
             </div>
-            
+
             <legend class="legendas">SAÚDE</legend>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias hic nesciunt a aut.</p>
         </div>
@@ -112,7 +127,7 @@
             <div>
                 <img id="vaca" src="img/vaca.png" alt="Cow by Qi studio from the Noun Project">
             </div>
-            
+
             <legend class="legendas">ANIMAIS</legend>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias hic nesciunt a aut.</p>
         </div>
@@ -120,11 +135,11 @@
             <div>
                 <img id="arvore" src="img/arvore.png" alt="trees by Made by Made from the Noun Project">
             </div>
-            
+
             <legend class="legendas">MEIO AMBIENTE</legend>
             <p>LLorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias hic nesciunt a aut.</p>
         </div>
-        
+
     </section>
     <section id="transicao">
         <div class="caixaDaTransicao">
@@ -142,10 +157,10 @@
                 </p>
             </div>
         </div>
-        
+
     </section>
-    
-    
+
+
     <footer>
         <div class="caixaFooter">
             <nav>
@@ -179,7 +194,7 @@
                 </ul>
             </nav>
             <div class="fundoLogo">
-                <img id="logoFooter" src="img/logonomebranco.png" alt="logo"> 
+                <img id="logoFooter" src="img/logonomebranco.png" alt="logo">
             </div>
             <div class="caixaRedes">
                 <h3>REDES SOCIAIS</h3>
@@ -189,9 +204,9 @@
                             <img src="img/facebook.png" alt="">
                         </a>
                     </div>
-                    
+
                     <div class="redes">
-                        
+
                         <a href="instagram.com">
                             <img src="img/instagram.png" alt="">
                         </a>
@@ -203,16 +218,17 @@
                     </div>
                 </div>
             </div>
-            
-            
-            
-            
-        </footer>
-        <div id="miniFooter">
-            <p>
-                ©2018 - Vegetalize Developers
-            </p>
-        </div>
-        
-    </body>
-    </html>
+
+
+
+
+    </footer>
+    <div id="miniFooter">
+        <p>
+            ©2018 - Vegetalize Developers
+        </p>
+    </div>
+
+</body>
+
+</html>
