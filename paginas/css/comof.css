@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #ededed;
+   
+}
+#conteudo{
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    width: 80vw;
+}
+#cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+    margin: 0 auto;
+    width: 80vw;
+    background-color: white;
+}
+button{
+    height: 36px;
+    width: 120px;
+    background-color: #cc5d4f;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14pt;
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+
+}
+button:hover{
+    box-shadow: 1px 0 8px 1px rgba(0, 0, 0, 0.24), 0 1px 40px 0 rgba(0, 0, 0, 0.24);
+    transition: linear 0.3s;
+}
