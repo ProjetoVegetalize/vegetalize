@@ -1,81 +1,58 @@
 body{
-        font-family: 'Dosis', sans-serif;
         flex-direction: column;
         margin: 0;
         overflow-x: hidden;
+        background-color: #ededed;
 }
-
-header{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 70px;
-    background-color: #F0FFBA;
-
-}
-header img{
-
-        height: 50px;
-        border-color: #CC5D4F;
-        border-radius: 50%;
-}
-
-
-.section1 h1{
-        color: white;
-        font-size: 30pt;
-
-}
-.section1{
-    background-color: #CC5D4F;
-    height: 70px;
-    display:flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-.section2{
-        background-color: #F0FFBA;
-        margin:0;
-        display:flex;
-        justify-content: center;
-        
-}
-
-.div1{
+#conteudo{
+        height: 100vh;
+        margin: 0 auto;
         background-color: white;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 80%;
-        
+        width: 90vw;
 }
-.div2{  
-        display:flex;
+#topoPerfil{
+        display: flex;
+        justify-content: space-evenly;
+}
+#configPerfil{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        width: 20%;
+}
+
+h1{
+        font-size: 30pt;
+}
+*{
+        color: black;
+        font-family: 'Dosis', sans-serif;
+        text-decoration: none;
+
+}
+#informaPerfil{
+        width: 30%;
+}
+select {
+        width: 180px;
+        height: 25px;
+        padding: 16px 20px;
+        border: 2px solid #CC5D4F;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+        
+        font-size: 0.9rem;
+        
+}
+option[value=tipos]{
+        text-align: center;
 }
 
 
-.div2 img{
 
-        height: 250px;
+footer{
+        height: 80px;
+        background-color: #CC5D4F;
 }
-
-.div3{  
-        margin-top: 20px;
-        display:flex;
-        align-items: center;
-        flex-direction: column;
-        width: 400px;
-}
-
-.div3 h2{
-        font-size: 15pt;
-
-}
-
-
 

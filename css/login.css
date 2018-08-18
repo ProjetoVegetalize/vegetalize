@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;   
     position: absolute;
-    right: 10%;
+    right: 20%;
     top: 126px;
 }
 
@@ -17,9 +17,14 @@
 }
 
 #trianglim{
-    height: 20px;
-    width: 20px;
-    background-color: #99B23C;
+    height: 23px;
+    width: 23px;
+    background-image: url(../img/folhamodal.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: -1px;
+    transform: rotate(-40deg);
+
 }
 
 #topLogin{
@@ -91,7 +96,6 @@ input[type=email], input[type=password]{
 
 #entrar{
     border-radius: 8px;
-    margin: 10px 0 0 10px;
     height: 30px;
     width: 80px;
     border: none;
