@@ -9,8 +9,10 @@ body{
         margin: 0 auto;
         background-color: white;
         width: 90vw;
+        display: flex;
+        flex-direction: column;
 }
-#topoPerfil{
+#topPerfil{
         display: flex;
         justify-content: space-evenly;
 }
@@ -19,11 +21,13 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 20%;
+        width: 40%;
 }
 
-h1{
+#nome{
         font-size: 30pt;
+        margin: 100px 0 0 0;
+        width: 100%;
 }
 *{
         color: black;
@@ -32,21 +36,74 @@ h1{
 
 }
 #informaPerfil{
-        width: 30%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+#informaPerfil>div{
+        
+        width: 100%;
+        
 }
 select {
+        
         width: 180px;
         height: 25px;
         padding: 16px 20px;
         border: 2px solid #CC5D4F;
         border-radius: 4px;
         background-color: #f1f1f1;
-        
+        outline: none;
         font-size: 0.9rem;
+        
         
 }
 option[value=tipos]{
         text-align: center;
+}
+
+.linhaDoTempo{
+        width: 100%;
+        display: flex;
+        margin-top: 20%;
+}
+#linha{
+        width: 400px;
+        background-color: #99B23C;
+        height: 20px;
+        border-radius: 20px;
+}
+.bolas{
+        z-index: 1;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #99B23C;
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+}
+.bola1{
+        width: 50px;
+        height: 50px;
+        transform: translate(35px, -15px);    
+}
+.bola2{
+        width: 80px;
+        height: 80px;
+        transform: translate(160px, -30px);    
+}
+.bola3{
+        width: 30px;
+        height: 30px;
+        transform: translate(290px, -5px);    
+}
+h4{
+        font-size:8pt;
+}
+.maior{
+        font-size:15pt;
 }
 
 
