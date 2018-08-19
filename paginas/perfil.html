@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link rel="stylesheet" href="/paginas/css/perfil.css">
     <link rel="stylesheet" href="/paginas/css/headerPaginas.css">
+    <link rel="stylesheet" href="/paginas/css/calendario.css">
     <title>Meu Perfil</title>
 </head>
 
@@ -21,72 +22,134 @@
         </div>
     </header>
 
-    <section id="conteudo">
-        <section id="topPerfil">
-            <div id="configPerfil">
-                <img src="../img/fotoperfil.png" alt="">
-                <a href="#">EDITAR PERFIL</a>
-                <a href="../home.html">SAIR</a>
 
+    <section id="topPerfil">
+        <div id="configPerfil">
+            <img src="../img/fotoperfil.png" alt="">
+            <a href="#">EDITAR PERFIL</a>
+            <a href="../home.html">SAIR</a>
+
+        </div>
+        <div id="informaPerfil">
+            <h1 id="nome">Luana Meira</h1>
+            <div>
+                <select name="tiposTransicao" id="">
+                    <option value="tipos">Tipos de Transição</option>
+                    <option value="tipos">Ovolactovegetariana</option>
+                    <option value="tipos">Lactovegetariana</option>
+                    <option value="tipos">Vegetariana Estrita</option>
+                    <option value="tipos">Vegana</option>
+                </select>
             </div>
-            <div id="informaPerfil">
-                <h1 id="nome">Luana Meira</h1>
-                <div>
-                    <select name="tiposTransicao" id="">
-                        <option value="tipos">Tipos de Transição</option>
-                        <option value="tipos">Ovolactovegetariana</option>
-                        <option value="tipos">Lactovegetariana</option>
-                        <option value="tipos">Vegetariana Estrita</option>
-                        <option value="tipos">Vegana</option>
-                    </select>
+            <div class="linhaDoTempo">
+                <div id="linha"></div>
+                <div class="bola1 bolas">
+                    <h4>15 DIAS</h4>
                 </div>
-                <div class="linhaDoTempo">
-                    <div id="linha"></div>
-                    <div class="bola1 bolas">
-                        <h4>15 DIAS</h4>
-                    </div>
-                    <div class="bola2 bolas">
-                        <h4 class="maior">28 DIAS</h4>
-                    </div>
-                    <div class="bola3 bolas">
-                        <h4>5 DIAS</h4>
-                    </div>
-
+                <div class="bola2 bolas">
+                    <h4 class="maior">28 DIAS</h4>
                 </div>
-            </div>
-
-        </section>
-        <section id="bottomPerfil">
-            <div id="conquistas">
-                <div class="medalhas">
-                    <h3>
-                        MINHAS MEDALHAS
-                    </h3>
-
-                </div>
-                <div id="calendario">
-
+                <div class="bola3 bolas">
+                    <h4>5 DIAS</h4>
                 </div>
 
             </div>
-            <div id="desafio">
-                <div>
-                    <h3></h3>
-                </div>
-                <div>
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <p></p>
-                    <button>X</button>
-                    <button>/</button>
-                </div>
-            </div>
-
-        </section>
+        </div>
 
     </section>
+    <section id="bottomPerfil">
+        <div id="conquistas">
+            <div class="medalhas">
+                <h3>
+                    MINHAS MEDALHAS
+                </h3>
+                <div class="iconeMedalha">
+                    <img src="../img/medalhaouro.png" alt="">
+                    <img src="../img/medalhaprata.png" alt="">
+                    <img src="../img/medalhabronze.png" alt="">
+                </div>
+                <div class="numeroMedalha">
+                    <p>2</p>
+                    <p>3</p>
+                    <p>5</p>
+                </div>
+            </div>
+            <div id="calendario">
+                <div class="month">
+                    <ul>
+                        <li class="prev">&#10094;</li>
+                        <li class="next">&#10095;</li>
+                        <li>Agosto</li>
+                    </ul>
+                </div>
+
+                <ul class="weekdays">
+                    <li>Seg</li>
+                    <li>Ter</li>
+                    <li>Qua</li>
+                    <li>Qui</li>
+                    <li>Sex</li>
+                    <li>Sab</li>
+                    <li>Dom</li>
+                </ul>
+
+                <ul class="days">
+                    <li></li>
+                    <li></li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div id="desafio">
+            <div>
+                <h3></h3>
+            </div>
+            <div>
+                <p></p>
+                <img src="" alt="">
+            </div>
+            <div>
+                <p></p>
+                <button>X</button>
+                <button>/</button>
+            </div>
+        </div>
+
+    </section>
+
+
     <footer></footer>
 </body>
 

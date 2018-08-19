@@ -4,17 +4,15 @@ body{
         overflow-x: hidden;
         background-color: #ededed;
 }
-#conteudo{
+
+#topPerfil{
         height: 100vh;
         margin: 0 auto;
         background-color: white;
-        width: 90vw;
-        display: flex;
-        flex-direction: column;
-}
-#topPerfil{
+        width: 80vw;
         display: flex;
         justify-content: space-evenly;
+        height: 70vh;
 }
 #configPerfil{
         display: flex;
@@ -105,7 +103,59 @@ h4{
 .maior{
         font-size:15pt;
 }
+#bottomPerfil{
+        height: 50vh;
+        margin: 0 auto;
+        background-color: white;
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+      
+}
 
+#conquistas{
+        height: 100%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+}
+.medalhas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 210px;
+        width: 250px;   
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     
+}
+.medalhas h3{
+        
+        font-size: 18pt;
+
+}
+.iconeMedalha{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+}
+.iconeMedalha img{
+       width: 60px;
+       height: 60px;
+       margin: 0;
+
+}
+.numeroMedalha{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 25pt;
+        margin: 0;
+}
+.numeroMedalha p{
+        padding: 0 22px;
+}
 
 
 footer{
