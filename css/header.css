@@ -29,7 +29,9 @@ header{
 .caixaBotoes{
     display: flex;
     flex-direction: column;
-    justify-content: center;      
+    justify-content: center;    
+    position: relative;
+    width:270px;
 }
 #pesquisar{
     display: flex;
