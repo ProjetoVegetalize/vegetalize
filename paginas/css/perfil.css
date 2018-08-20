@@ -76,6 +76,10 @@ option[value=tipos]{
         justify-content:center;
         align-items: center; 
 }
+.bolas:hover{
+        padding: 10px; 
+        transition: 0.3s;
+}
 .bola1{
         width: 50px;
         height: 50px;
@@ -165,6 +169,7 @@ h4{
         width: 500px;
         height: 350px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
 }
 .tituloDesafio{
         display: flex;
@@ -196,7 +201,35 @@ h5{
         width: 100px;
         margin-left: 20px;
 }
+.botoesDesafio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+}
+.botoesDesafio div{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+       
+}
+.botoesDesafio button{
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+        outline: none;
+        border: none;
+        font-size:10pt;
+        cursor: pointer;
+}
+.nao{
+        background-color: #CC5D4F;
+        color: rgb(231, 155, 143);
+}
+.sim{
+        background-color: #99B23C;
+        color: rgb(208, 226, 144);
+}
 
 footer{
         height: 80px;
