@@ -4,7 +4,7 @@
 #objetivos{
     background-color: #99B23C;
     width: 100vw;
-    height: 400px;
+    height: 500px;
 }
 
 #projeto, #transicao{
@@ -128,9 +128,16 @@
     align-items: center;
 }
 
+.pilar p{
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 .legendas{
     font-size:1.6rem;
     margin-top:20px; 
+    font-weight: bolder;
 }
 #coracao{
     

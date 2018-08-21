@@ -6,6 +6,10 @@
     right: 130px;
     top: 126px;
 }
+#entrar a{
+    text-decoration: none;
+    color: white;
+}
 
 .ativar{
     display: flex;
