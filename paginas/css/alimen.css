@@ -5,7 +5,7 @@ body{
 }
 #conteudo{
 
-        height: 250vh;
+        height: 270vh;
         margin: 0 auto;
         background-color: white;
         width: 80vw;
@@ -29,7 +29,7 @@ body{
 }
 #conteudo div{
 
-    width: 75vw;
+    width: 80vw;
 }
 #conteudo img{
     height: 170px;

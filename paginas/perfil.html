@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/paginas/css/headerPaginas.css">
     <link rel="stylesheet" href="/paginas/css/calendario.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="/paginas/perfil.js" defer></script>
     <title>Meu Perfil</title>
 </head>
 
@@ -39,10 +40,11 @@
             <h1 id="nome">Luana Meira</h1>
             <div>
                 <select name="tiposTransicao" id="">
-                    <option value="tipos">Tipos de Transição</option>
+                    <option value="tipos">Vegetariana Estrita</option>
+                    <!-- <option value="tipos">Tipos de Transição</option> -->
                     <option value="tipos">Ovolactovegetariana</option>
                     <option value="tipos">Lactovegetariana</option>
-                    <option value="tipos">Vegetariana Estrita</option>
+
                     <option value="tipos">Vegana</option>
                 </select>
             </div>
@@ -58,6 +60,9 @@
                     <h4>5 DIAS</h4>
                 </div>
 
+            </div>
+            <div>
+                <p class="linkTransicao"><a href="#">Acompanhe seu trajeto de transição até aqui!</a></p>
             </div>
         </div>
 
@@ -75,7 +80,8 @@
                 </div>
                 <div class="numeroMedalha">
                     <p>2</p>
-                    <p>3</p>
+                    <p class="medalhaAntiga">3</p>
+                    <p class="mudarMedalha">4</p>
                     <p>5</p>
                 </div>
             </div>
@@ -101,18 +107,18 @@
                 <ul class="days">
                     <li></li>
                     <li></li>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                    <li>8</li>
-                    <li>9</li>
-                    <li>10</li>
-                    <li>11</li>
-                    <li>12</li>
+                    <li class="verde">1</li>
+                    <li class="verde">2</li>
+                    <li class="verde">3</li>
+                    <li class="verde">4</li>
+                    <li class="verde">5</li>
+                    <li class="verde">6</li>
+                    <li class="vermelho">7</li>
+                    <li class="verde">8</li>
+                    <li class="verde">9</li>
+                    <li class="verde">10</li>
+                    <li class="vermelho">11</li>
+                    <li class="pintarVerde">12</li>
                     <li>13</li>
                     <li>14</li>
                     <li>15</li>
@@ -137,8 +143,8 @@
             </div>
 
         </div>
-        <div class="caixaDesafio"data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="1000" data-aos-duration="1000">
-           
+        <div class="caixaDesafio" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="1000" data-aos-duration="1000">
+
             <div id="desafioDeHoje">
                 <div class="tituloDesafio">
                     <img src="../img/cabeca.png" alt="">
@@ -161,6 +167,9 @@
                         <button class="nao">&#10006;</button>
                         <button class="sim">&#x2714;</button>
                     </div>
+                </div>
+                <div class="desafioConcluido">
+                    <p>★ Desafio Concluído! ★</p>
                 </div>
             </div>
         </div>
